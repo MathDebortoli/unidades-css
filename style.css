@@ -1,0 +1,26 @@
+
+.imagemPx{
+  width: 100px;
+  height: 100px;
+}
+
+.imagemIn{
+  width: 10in;
+  height: 10in;
+}
+
+.imagemCm{
+  width: 10cm;
+  height: 15cm;
+}
+
+.imagemPt{
+  width: 10pt;
+  height: 10pt;
+}
+
+.ImagemPc{
+  width: 10pc;
+  height: 10pc;
+}
+
