@@ -1,0 +1,84 @@
+:root{
+    font-size: 50px;
+   
+   
+}
+
+.pai  {
+    font-size: 30px;
+     
+}
+    
+article.pai p{ 
+    font-size: 1.5em;
+}
+
+
+.pai2{
+    font-size:25px;
+
+}
+
+main.pai2 p{
+    font-size: 2em; 
+    /* outro exemplo do uso de em e rem  */
+}
+
+
+.imagem {
+    width: 50%;
+
+    /* aqui voce pode usar a porcentagem como mudar o tamanho da imagem*/
+}
+.porcentagem{
+    font-size: 50%;
+ 
+    /* ou pode usar com base no elemento pai que aqui é o root que tem cerca de 50px logo a fonte vai ter 25px */
+}
+.bloco{
+   
+    width: 100vw; /* 100% da largura da viewport*/
+    height: 100vh; /* 100% da altura da viewport*/
+    background-color: blue;
+}
+
+.color1{
+   
+    
+    background-color: green;
+}
+
+.color2{
+    background-color: yellow;
+}
+
+.block{
+    width: 100vmax; /* vmin 1% da MENOR medida entre vw e vh*/
+    height: 100vmax;  /*vmax 1% da Maior medida entre vw e vh*/
+    background-color: red;
+}
+
+.imagemPx{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .imagemIn{
+    width: 10in;
+    height: 10in;
+  }
+  
+  .imagemCm{
+    width: 10cm;
+    height: 15cm;
+  }
+  
+  .imagemPt{
+    width: 10pt;
+    height: 10pt;
+  }
+  
+  .ImagemPc{
+    width: 10pc;
+    height: 10pc;
+  }
